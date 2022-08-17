@@ -12,7 +12,7 @@ private:
 	double			m_dDT;			// 업데이트 당 몇초
 
 public:
-
+	 
 
 	void update();
 	void init();

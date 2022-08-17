@@ -6,7 +6,7 @@ class CCore
 
 private:
 	// 윈도우 DC
-	HDC m_hDC;
+	HDC m_hDC; 
 	// 메모리 DC
 	HDC m_hMemDC;
 	// 메모리 비트맵

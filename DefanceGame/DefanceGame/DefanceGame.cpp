@@ -128,7 +128,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    {
       return FALSE;
    }
-
+     
    RECT rc;
    rc.left = 0;
    rc.top = 0;

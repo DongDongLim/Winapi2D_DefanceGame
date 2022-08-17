@@ -1,4 +1,4 @@
-#include "framework.h";
+ï»¿#include "framework.h";
 
 CCore::CCore()
 {
@@ -6,7 +6,7 @@ CCore::CCore()
 
 CCore::~CCore()
 {
-	ReleaseDC(hWnd, m_hDC);// »ç¿ëÇÑ dc ¹İ³³
+	ReleaseDC(hWnd, m_hDC);// ì‚¬ìš©í•œ dc ë°˜ë‚©
 	DeleteDC(m_hMemDC);
 	DeleteObject(m_hBMP);
 }
@@ -15,8 +15,8 @@ POINT g_rectPos;
 
 void CCore::init()
 {
-	// ÄÚ¾îÀÇ ÃÊ±âÈ­ °úÁ¤
-	m_hDC = GetDC(hWnd); // ±×·Á¾ßÇÏ´Â À©µµ¿ìÀÇ dc¸¦ °¡Á®¿À´Â ¹æ¹ı
+	// ì½”ì–´ì˜ ì´ˆê¸°í™” ê³¼ì •
+	m_hDC = GetDC(hWnd); // ê·¸ë ¤ì•¼í•˜ëŠ” ìœˆë„ìš°ì˜ dcë¥¼ ê°€ì ¸ì˜¤ëŠ” ë°©ë²•
 	m_hMemDC = CreateCompatibleDC(m_hDC);
 	m_hBMP = CreateCompatibleBitmap(m_hDC, WINSIZEX, WINSIZEY);
 	HBITMAP hOldBitmap = (HBITMAP)SelectObject(m_hMemDC, m_hBMP);
@@ -24,7 +24,7 @@ void CCore::init()
 	g_rectPos.x = 300;
 	g_rectPos.y = 300;
 }
-
+ 
 void CCore::update()
 {
 }

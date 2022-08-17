@@ -14,7 +14,7 @@ CTimeManager::~CTimeManager()
 {
 
 }
-
+ 
 void CTimeManager::update()
 {
 	static unsigned int updateCount = 0;
