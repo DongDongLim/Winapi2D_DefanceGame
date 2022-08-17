@@ -19,6 +19,10 @@
 #include <list>
 #include <chrono> // time함수보다 정밀한 시간체크
 
+// 헤더파일
+#include "USingleTon.h"
+#include "CCore.h"
+
 // define
 #define WINSTARTX	400
 #define WINSTARTY	200

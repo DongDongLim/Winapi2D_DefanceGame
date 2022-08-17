@@ -1,7 +1,11 @@
 #pragma once
+
 class CCore
 {
-private:
-	CCore();
+	SINGLETON(CCore);
+
+public:
+	void update();
+	void render();
 };
 
