@@ -21,6 +21,7 @@
 
 // 헤더파일
 #include "USingleTon.h"
+#include "CTimeManager.h";
 #include "CCore.h"
 
 // define

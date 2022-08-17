@@ -44,6 +44,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     MSG msg;
 
     // 게임 시작 전 초기화
+    CTimeManager::getInst()->init();
     CCore::getInst()->init();
 
     while (TRUE)
