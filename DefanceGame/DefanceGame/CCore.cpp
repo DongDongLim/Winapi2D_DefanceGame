@@ -24,10 +24,23 @@ void CCore::Init()
  
 void CCore::Update()
 {
+	CTimeManager::getInst()->Update();
 
+	// fps를 표현
+	WCHAR strFPS[6];
+	swprintf_s(strFPS, L"%5d", CTimeManager::getInst()->GetFPS());
+	TextOutW(m_hDC, WINSIZEX - 50, 10, strFPS, 5);
 }
 
 void CCore::Render()
 {
+	// 배경 초기화
+	Rectangle(m_hMemDC, -1, -1, WINSIZEX + 1, WINSIZEY + 1);
+
+	// TODO : 게임 표현(게임의 정보를 통해 그려주는 작업)
+
+
+	// m_hMemDC에 그린 복사본을 원본 DC에 그리는 작업
+	BitBlt(m_hDC, 0, 0, WINSIZEX, WINSIZEY, m_hMemDC, 0, 0, SRCCOPY);
 
 }
