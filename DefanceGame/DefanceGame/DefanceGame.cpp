@@ -43,6 +43,9 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     MSG msg;
 
+    // 게임 시작 전 초기화
+    CCore::getInst()->init();
+
     while (TRUE)
     {
         if (PeekMessage(&msg, nullptr, 0, 0, PM_REMOVE))
