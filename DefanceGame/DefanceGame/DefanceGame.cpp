@@ -137,7 +137,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 
    // 실제 내용 창이 크기에 맞게끔 하도록 사이즈
    // (내가 설정한 사이즈가 윈도우 메뉴 등을 포함하지 않도록)
-   AdjustWindowRect(&rc, WINSTYLE, false);
+   AdjustWindowRect(&rc, WINSTYLE, TRUE);
    // 위에서 얻은 사이즈로 윈도우 사이즈를 세팅
    SetWindowPos(hWnd, NULL, WINSTARTX, WINSTARTY, (rc.right - rc.left),
        (rc.bottom - rc.top), SWP_NOZORDER | SWP_NOMOVE);
