@@ -64,8 +64,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
         }
         else
         {
-            CCore::getInst()->update();
-            CCore::getInst()->render();
+            CCore::getInst()->Update();
+            CCore::getInst()->Render();
         }
     }
     return (int) msg.wParam;
@@ -113,7 +113,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 {
    hInst = hInstance; // 인스턴스 핸들을 전역 변수에 저장합니다.
 
-   HWND hWnd = CreateWindowW(
+   hWnd = CreateWindowW(
        szWindowClass,
        szTitle,
        WINSTYLE,

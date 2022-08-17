@@ -29,4 +29,5 @@ void CCore::Update()
 
 void CCore::Render()
 {
+
 }
