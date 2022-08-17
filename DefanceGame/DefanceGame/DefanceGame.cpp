@@ -8,6 +8,7 @@
 
 // 전역 변수:
 HINSTANCE hInst;                                // 현재 인스턴스입니다.
+HWND hWnd;                                      // 현재 화면의 핸들 값
 WCHAR szTitle[MAX_LOADSTRING];                  // 제목 표시줄 텍스트입니다.
 WCHAR szWindowClass[MAX_LOADSTRING];            // 기본 창 클래스 이름입니다.
 
@@ -107,8 +108,18 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 {
    hInst = hInstance; // 인스턴스 핸들을 전역 변수에 저장합니다.
 
-   HWND hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
-      CW_USEDEFAULT, 0, CW_USEDEFAULT, 0, nullptr, nullptr, hInstance, nullptr);
+   HWND hWnd = CreateWindowW(
+       szWindowClass,
+       szTitle,
+       WINSTYLE,
+       WINSTARTX,
+       WINSTARTY,
+       WINSIZEX,
+       WINSIZEY,
+       nullptr, 
+       nullptr, 
+       hInstance, 
+       nullptr);
 
    if (!hWnd)
    {

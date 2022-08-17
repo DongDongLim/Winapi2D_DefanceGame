@@ -20,8 +20,8 @@
 #include <chrono> // time함수보다 정밀한 시간체크
 
 // define
-#define WINSTARTX	100
-#define WINSTARTY	100
+#define WINSTARTX	400
+#define WINSTARTY	200
 #define WINSIZEX	1280
 #define WINSIZEY	720
 #define WINSTYLE WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX
