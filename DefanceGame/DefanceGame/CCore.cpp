@@ -11,9 +11,8 @@ CCore::~CCore()
 	DeleteObject(m_hBMP);
 }
 
-POINT g_rectPos;
 
-void CCore::init()
+void CCore::Init()
 {
 	// 코어의 초기화 과정
 	m_hDC = GetDC(hWnd); // 그려야하는 윈도우의 dc를 가져오는 방법
@@ -21,15 +20,13 @@ void CCore::init()
 	m_hBMP = CreateCompatibleBitmap(m_hDC, WINSIZEX, WINSIZEY);
 	HBITMAP hOldBitmap = (HBITMAP)SelectObject(m_hMemDC, m_hBMP);
 	DeleteObject(hOldBitmap);
-	g_rectPos.x = 300;
-	g_rectPos.y = 300;
 }
  
-void CCore::update()
+void CCore::Update()
 {
 
 }
 
-void CCore::render()
+void CCore::Render()
 {
 }

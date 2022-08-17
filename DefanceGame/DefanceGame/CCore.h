@@ -14,8 +14,8 @@ private:
 
 public:
 
-	void init();
-	void update();
-	void render();
+	void Init();
+	void Update();
+	void Render();
 };
 

@@ -15,7 +15,7 @@ CTimeManager::~CTimeManager()
 
 }
  
-void CTimeManager::update()
+void CTimeManager::Update()
 {
 	static unsigned int updateCount = 0;
 	static double updateOneSecond = 0;
@@ -42,7 +42,7 @@ void CTimeManager::update()
 	}
 }
 
-void CTimeManager::init()
+void CTimeManager::Init()
 {
 	// 현재 시간의 카운트 수(매개변수에 넣어줌)
 	QueryPerformanceCounter(&m_llPrevCount);

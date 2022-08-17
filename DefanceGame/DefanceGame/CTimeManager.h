@@ -14,8 +14,8 @@ private:
 public:
 	 
 
-	void update();
-	void init();
+	void Update();
+	void Init();
 
 	unsigned int	GetFPS() { return m_uiFPS; }
 	double			GetDT() { return m_dDT; }

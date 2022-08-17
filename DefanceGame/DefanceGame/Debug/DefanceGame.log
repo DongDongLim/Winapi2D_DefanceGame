@@ -1,4 +1,20 @@
-﻿  DefanceGame.cpp
+﻿  CCore.cpp
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.cpp(1,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\framework.h(24,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x44 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x45 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x46 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x47 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x48 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x49 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x61 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x64 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x80 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x83 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x87 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x88 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x8c 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
+  DefanceGame.cpp
 C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\framework.h(24,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
 C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x44 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
 C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.h(1,1): warning C4828: 파일에 0x45 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 65001).
