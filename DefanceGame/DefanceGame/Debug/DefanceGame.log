@@ -1,3 +1,4 @@
 ﻿  CCore.cpp
-C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.cpp(2,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\DefanceGame\CCore.cpp(1,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  DefanceGame.cpp
   DefanceGame.vcxproj -> C:\Users\USER\Documents\GitHub\Winapi2D_DefanceGame\DefanceGame\Debug\DefanceGame.exe

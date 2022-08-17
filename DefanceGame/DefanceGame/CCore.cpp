@@ -11,6 +11,7 @@ CCore::~CCore()
 
 void CCore::init()
 {
+
 }
 
 void CCore::update()
