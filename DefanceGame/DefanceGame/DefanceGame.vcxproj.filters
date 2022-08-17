@@ -5,10 +5,6 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="리소스 파일">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
@@ -16,34 +12,38 @@
     <Filter Include="소스 파일\Util">
       <UniqueIdentifier>{97ac1f5b-09e8-425f-a556-9860427707b5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="헤더 파일\Util">
-      <UniqueIdentifier>{66b18764-4e5d-4f3d-85d0-ec4ab77d7de4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Engine">
       <UniqueIdentifier>{c092d66b-0bad-4ee6-ad4f-43b2d5e8d3b1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="헤더 파일\Engine">
-      <UniqueIdentifier>{53c2c929-c204-4d7f-a5c6-7447daabbc02}</UniqueIdentifier>
+    <Filter Include="소스 파일\Manager">
+      <UniqueIdentifier>{4db9ed9c-f26f-404e-b541-5d1b9110c766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="DefanceGame.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="USingleTon.h">
+      <Filter>소스 파일\Util</Filter>
     </ClInclude>
     <ClInclude Include="CCore.h">
-      <Filter>헤더 파일\Engine</Filter>
+      <Filter>소스 파일\Engine</Filter>
     </ClInclude>
-    <ClInclude Include="USingleTon.h">
-      <Filter>헤더 파일\Util</Filter>
+    <ClInclude Include="DefanceGame.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeManager.h">
+      <Filter>소스 파일\Manager</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +52,9 @@
     </ClCompile>
     <ClCompile Include="CCore.cpp">
       <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeManager.cpp">
+      <Filter>소스 파일\Manager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

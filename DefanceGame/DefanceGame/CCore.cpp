@@ -27,6 +27,7 @@ void CCore::init()
  
 void CCore::update()
 {
+
 }
 
 void CCore::render()

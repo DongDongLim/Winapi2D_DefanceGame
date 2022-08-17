@@ -61,10 +61,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
                 TranslateMessage(&msg);
                 DispatchMessage(&msg);
             }
-            else
-            {
-                //TODO : 게임 진행
-            }
+        }
+        else
+        {
+            CCore::getInst()->update();
+            CCore::getInst()->render();
         }
     }
     return (int) msg.wParam;
