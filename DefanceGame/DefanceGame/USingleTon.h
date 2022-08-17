@@ -3,8 +3,8 @@
 #define SINGLETON(CLASS)			\
 									\
 private:							\
-	CLASS()	{};						\
-	~CLASS(){};						\
+	CLASS();						\
+	~CLASS();						\
 									\
 public:								\
 	static	CLASS* getInst()		\
