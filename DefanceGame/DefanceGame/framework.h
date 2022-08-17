@@ -24,6 +24,7 @@
 #define WINSTARTY	200
 #define WINSIZEX	1280
 #define WINSIZEY	720
+// https://docs.microsoft.com/ko-kr/windows/win32/winmsg/window-styles
 #define WINSTYLE WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX
 
 // 전역변수 extern(다른 파일의 전역변수 사용)
