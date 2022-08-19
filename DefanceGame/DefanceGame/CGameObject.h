@@ -19,7 +19,7 @@ public:
 	void SetPoint(int x, int y);
 	double GetHitDis();
 	POINT GetSize();
-	POINT GetPozision();
+	POINT GetPozition();
 
 };
 

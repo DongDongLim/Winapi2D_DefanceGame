@@ -32,6 +32,7 @@
 // https://docs.microsoft.com/ko-kr/windows/win32/winmsg/window-styles
 #define WINSTYLE WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX
 #define FPS CTimeManager::getInst()->GetFPS()
+#define DT CTimeManager::getInst()->GetDT()
 
 // 전역변수 extern(다른 파일의 전역변수 사용)
 extern HINSTANCE hInst;
