@@ -8,7 +8,7 @@ CGameObject::CGameObject()
 	m_pozition = { 0, 0 };
 }
 
-CGameObject::~CGameObject()
+virtual CGameObject::~CGameObject()
 {
 
 }

@@ -10,7 +10,7 @@ protected:
 public:
 
 	CGameObject();
-	~CGameObject();
+	virtual	~CGameObject();
 
 	virtual void Update() {};
 	// 게임오브젝트 == 게임내 보여지는 오브젝트 렌더함수 순수 가상함수로 생성
