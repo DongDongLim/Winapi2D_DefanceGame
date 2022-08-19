@@ -4,8 +4,8 @@
 CGameObject::CGameObject()
 {
 	hitDistance = 0;
-	size = { 0, 0 };
-	pozition = { 0, 0 };
+	m_scale = { 0, 0 };
+	m_pozition = { 0, 0 };
 }
 
 CGameObject::~CGameObject()
@@ -13,14 +13,14 @@ CGameObject::~CGameObject()
 
 }
 
-void CGameObject::SetSize(int x, int y)
+void CGameObject::SetScale(POINT scale)
 {
-	size = { x, y };
+	m_scale = scale;
 }
 
-void CGameObject::SetPoint(int x, int y)
+void CGameObject::SetPozition(POINT pos)
 {
-	pozition = { x, y };
+	m_pozition = pos;
 }
 
 double CGameObject::GetHitDis()
@@ -28,12 +28,12 @@ double CGameObject::GetHitDis()
 	return hitDistance;
 }
 
-POINT CGameObject::GetSize()
+POINT CGameObject::GetScale()
 {
-	return size;
+	return m_scale;
 }
 
 POINT CGameObject::GetPozition()
 {
-	return pozition;
+	return m_pozition;
 }
