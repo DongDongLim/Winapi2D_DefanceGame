@@ -19,6 +19,8 @@
 #include <list>
 #include <chrono> // time함수보다 정밀한 시간체크
 
+using std::vector;
+
 // 헤더파일
 #include "USingleTon.h"
 #include "CTimeManager.h";
