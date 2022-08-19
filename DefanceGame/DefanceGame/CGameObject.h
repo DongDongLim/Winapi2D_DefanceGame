@@ -1,4 +1,5 @@
 #pragma once
+
 class CGameObject
 {
 protected:
@@ -6,10 +7,10 @@ protected:
 	POINT size;
 	POINT pozition;
 
+public:
+
 	CGameObject();
 	~CGameObject();
-
-public:
 
 	virtual void Update() {};
 	// 게임오브젝트 == 게임내 보여지는 오브젝트 렌더함수 순수 가상함수로 생성
