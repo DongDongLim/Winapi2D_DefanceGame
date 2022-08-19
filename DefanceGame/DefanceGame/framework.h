@@ -18,8 +18,10 @@
 #include <vector>
 #include <list>
 #include <chrono> // time함수보다 정밀한 시간체크
+#include <string>
 
 using std::vector;
+using std::wstring;
 
 // 헤더파일
 #include "USingleTon.h"
@@ -39,3 +41,11 @@ using std::vector;
 // 전역변수 extern(다른 파일의 전역변수 사용)
 extern HINSTANCE hInst;
 extern HWND hWnd;
+
+// 오브젝트 그룹
+enum class GROUP_GAMEOBJ
+{
+	DEFAULT = 0,
+
+	SIZE,
+};
