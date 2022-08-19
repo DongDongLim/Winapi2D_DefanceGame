@@ -26,9 +26,10 @@ void CCore::Update()
 {
 	CTimeManager::getInst()->Update();
 
+	
 	// fps를 표현
 	WCHAR strFPS[6];
-	swprintf_s(strFPS, L"%5d", CTimeManager::getInst()->GetFPS());
+	swprintf_s(strFPS, L"%5d", FPS);
 	TextOutW(m_hDC, WINSIZEX - 50, 10, strFPS, 5);
 }
 
