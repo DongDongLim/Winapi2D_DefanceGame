@@ -26,6 +26,7 @@ using std::wstring;
 // 헤더파일
 #include "USingleTon.h"
 #include "CTimeManager.h"
+#include "CSceneManager.h"
 #include "CCore.h"
 
 // define
@@ -44,6 +45,13 @@ extern HWND hWnd;
 
 // 오브젝트 그룹
 enum class GROUP_GAMEOBJ
+{
+	DEFAULT = 0,
+
+	SIZE,
+};
+
+enum class GROUP_SCENE
 {
 	DEFAULT = 0,
 
