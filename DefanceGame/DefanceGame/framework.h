@@ -23,6 +23,21 @@
 using std::vector;
 using std::wstring;
 
+// 오브젝트 그룹
+enum class GROUP_GAMEOBJ
+{
+	DEFAULT = 0,
+
+	SIZE,
+};
+
+enum class GROUP_SCENE
+{
+	DEFAULT = 0,
+
+	SIZE,
+};
+
 // 헤더파일
 #include "USingleTon.h"
 #include "CTimeManager.h"
@@ -42,18 +57,3 @@ using std::wstring;
 // 전역변수 extern(다른 파일의 전역변수 사용)
 extern HINSTANCE hInst;
 extern HWND hWnd;
-
-// 오브젝트 그룹
-enum class GROUP_GAMEOBJ
-{
-	DEFAULT = 0,
-
-	SIZE,
-};
-
-enum class GROUP_SCENE
-{
-	DEFAULT = 0,
-
-	SIZE,
-};
