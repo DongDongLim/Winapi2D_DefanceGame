@@ -34,6 +34,7 @@ enum class GROUP_GAMEOBJ
 enum class GROUP_SCENE
 {
 	DEFAULT = 0,
+	TOOL,
 
 	SIZE,
 };

@@ -29,10 +29,6 @@ void CCore::Update()
 	CTimeManager::getInst()->Update();
 	CSceneManager::getInst()->Update();
 	
-	// fps를 표현
-	WCHAR strFPS[6];
-	swprintf_s(strFPS, L"%5d", FPS);
-	TextOutW(m_hDC, WINSIZEX - 50, 10, strFPS, 5);
 }
 
 void CCore::Render()
@@ -42,6 +38,10 @@ void CCore::Render()
 
 	// TODO : 게임 표현(게임의 정보를 통해 그려주는 작업)
 	CSceneManager::getInst()->Render(m_hMemDC);
+	// fps를 표현
+	WCHAR strFPS[6];
+	swprintf_s(strFPS, L"%5d", FPS);
+	TextOutW(m_hMemDC, WINSIZEX - 50, 10, strFPS, 5);
 
 
 	// m_hMemDC에 그린 복사본을 원본 DC에 그리는 작업

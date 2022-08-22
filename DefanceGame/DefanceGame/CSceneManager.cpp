@@ -42,3 +42,8 @@ void CSceneManager::Init()
 {
 
 }
+
+CScene* CSceneManager::GetCurScene()
+{
+	return m_pCurScene;
+}
