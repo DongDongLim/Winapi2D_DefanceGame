@@ -48,3 +48,8 @@ void CCore::Render()
 	BitBlt(m_hDC, 0, 0, WINSIZEX, WINSIZEY, m_hMemDC, 0, 0, SRCCOPY);
 
 }
+
+HDC CCore::GetMainDC()
+{
+	return m_hMemDC;
+}
