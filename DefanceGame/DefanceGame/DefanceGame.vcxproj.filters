@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\Main">
       <UniqueIdentifier>{944d2762-404c-4ac9-96d8-2636858489ef}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Resource">
+      <UniqueIdentifier>{0f86d064-8727-495c-8a29-c093b8feb114}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="USingleTon.h">
@@ -63,6 +66,9 @@
     <ClInclude Include="CSceneManager.h">
       <Filter>소스 파일\Manager</Filter>
     </ClInclude>
+    <ClInclude Include="CResource.h">
+      <Filter>소스 파일\Resource</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCore.cpp">
@@ -82,6 +88,9 @@
     </ClCompile>
     <ClCompile Include="CSceneManager.cpp">
       <Filter>소스 파일\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CResource.cpp">
+      <Filter>소스 파일\Resource</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
