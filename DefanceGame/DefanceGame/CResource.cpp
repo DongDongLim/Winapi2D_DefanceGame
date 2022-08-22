@@ -3,6 +3,8 @@
 
 CResource::CResource()
 {
+	m_strKey = L"";
+	m_strPath = L"";
 }
 
 CResource::~CResource()
@@ -11,18 +13,20 @@ CResource::~CResource()
 
 void CResource::SetKey(const wstring& strKey)
 {
+	m_strKey = strKey;
 }
 
 void CResource::SetPath(const wstring& strPath)
 {
+	m_strPath = strPath;
 }
 
 const wstring& CResource::GetKey()
 {
-	// // O: 여기에 return 문을 삽입합니다.
+	return m_strKey;
 }
 
 const wstring& CResource::GetPath()
 {
-	// // O: 여기에 return 문을 삽입합니다.
+	return m_strPath;
 }
