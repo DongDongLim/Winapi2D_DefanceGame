@@ -19,7 +19,7 @@ CScene::~CScene()
 	}
 }
 
-void CScene::update()
+void CScene::Update()
 {
 	for (int i = 0; i < (int)GROUP_GAMEOBJ::SIZE; ++i)
 	{
@@ -30,7 +30,7 @@ void CScene::update()
 	}
 }
 
-void CScene::render(HDC hdc)
+void CScene::Render(HDC hdc)
 {
 
 	for (int i = 0; i < (int)GROUP_GAMEOBJ::SIZE; ++i)

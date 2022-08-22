@@ -13,8 +13,8 @@ public:
 	~CScene();
 
 	// 씬의 모든 오브젝트와 렌더는 모든 씬이 공통적으로 진행
-	virtual void update();
-	virtual void render(HDC hdc);
+	virtual void Update();
+	virtual void Render(HDC hdc);
 
 	void SetName(const wstring& strName);
 	wstring GetName();

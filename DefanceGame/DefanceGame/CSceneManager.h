@@ -8,12 +8,13 @@ class CSceneManager
 
 private:
 	CScene* m_arrScene[(int)GROUP_SCENE::SIZE];
-	CScene* m_pcurScene;
+	CScene* m_pCurScene;
 
 public:
-	void ChangScene(GROUP_SCENE scene);
+	void ChangeScene(GROUP_SCENE scene);
 
 	void Update();
 	void Render(HDC hDC);
+	void Init();
 };
 
