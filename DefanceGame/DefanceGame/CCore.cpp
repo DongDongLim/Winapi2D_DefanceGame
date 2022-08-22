@@ -14,6 +14,8 @@ CCore::~CCore()
 
 void CCore::Init()
 {
+	CTimeManager::getInst()->Init();
+	CSceneManager::getInst()->Init();
 	// 코어의 초기화 과정
 	m_hDC = GetDC(hWnd); // 그려야하는 윈도우의 dc를 가져오는 방법
 	m_hMemDC = CreateCompatibleDC(m_hDC);
@@ -25,7 +27,7 @@ void CCore::Init()
 void CCore::Update()
 {
 	CTimeManager::getInst()->Update();
-
+	CSceneManager::getInst()->Update();
 	
 	// fps를 표현
 	WCHAR strFPS[6];
@@ -39,6 +41,7 @@ void CCore::Render()
 	Rectangle(m_hMemDC, -1, -1, WINSIZEX + 1, WINSIZEY + 1);
 
 	// TODO : 게임 표현(게임의 정보를 통해 그려주는 작업)
+	CSceneManager::getInst()->Render(m_hMemDC);
 
 
 	// m_hMemDC에 그린 복사본을 원본 DC에 그리는 작업
