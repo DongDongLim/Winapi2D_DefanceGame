@@ -12,6 +12,9 @@ public:
 	CScene();
 	~CScene();
 
+	virtual void Enter() = 0;
+	virtual void Exit() = 0;
+
 	// 씬의 모든 오브젝트와 렌더는 모든 씬이 공통적으로 진행
 	virtual void Update();
 	virtual void Render(HDC hdc);
