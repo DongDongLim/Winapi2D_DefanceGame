@@ -20,6 +20,7 @@
 #include <chrono> // time함수보다 정밀한 시간체크
 #include <string>
 #include <map>
+#include <cassert>
 
 using std::vector;
 using std::wstring;
