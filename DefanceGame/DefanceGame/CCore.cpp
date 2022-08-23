@@ -16,6 +16,7 @@ void CCore::Init()
 {
 	CTimeManager::getInst()->Init();
 	CSceneManager::getInst()->Init();
+	CPathManager::getInst()->Init();
 	// 코어의 초기화 과정
 	m_hDC = GetDC(hWnd); // 그려야하는 윈도우의 dc를 가져오는 방법
 	m_hMemDC = CreateCompatibleDC(m_hDC);
