@@ -1,16 +1,16 @@
 #pragma once
 
-class CResource;
+class CTexture;
 
 class CResourceManager
 {
 	SINGLETON(CResourceManager);
 private:
-	map<wstring, CResource> m_mapResource;
+	map<wstring, CTexture> m_mapResource;
 
 public:
-	CResource* FindResource(const wstring& strKey);
+	CTexture* FindTexture(const wstring& strKey);
 
-	CResource* LoadResource(const wstring& strKey);
+	CTexture* LoadTexture(const wstring& strKey);
 };
 
