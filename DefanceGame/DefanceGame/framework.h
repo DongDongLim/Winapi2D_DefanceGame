@@ -19,9 +19,11 @@
 #include <list>
 #include <chrono> // time함수보다 정밀한 시간체크
 #include <string>
+#include <map>
 
 using std::vector;
 using std::wstring;
+using std::map;
 
 // 오브젝트 그룹
 enum class GROUP_GAMEOBJ
