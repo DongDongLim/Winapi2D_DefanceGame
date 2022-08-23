@@ -44,6 +44,7 @@ enum class GROUP_SCENE
 
 // 헤더파일
 #include "USingleTon.h"
+#include "UPointCalculation.h"
 #include "CTimeManager.h"
 #include "CSceneManager.h"
 #include "CPathManager.h"

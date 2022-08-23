@@ -5,6 +5,7 @@ CPathManager::CPathManager()
 	m_szContentPath[0] = {};
 }
 
+
 CPathManager::~CPathManager()
 {
 
