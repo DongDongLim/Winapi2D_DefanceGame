@@ -46,6 +46,7 @@ enum class GROUP_SCENE
 #include "USingleTon.h"
 #include "CTimeManager.h"
 #include "CSceneManager.h"
+#include "CResourceManager.h"
 #include "CCore.h"
 
 // define
